@@ -18,7 +18,7 @@ Originally was created for the desktop client but was abandoned
     - Returns **UserProfile** or **null** if there is an error
   - ListAnime
     - *Just use ListAnimeDefault() without args and don't worry*
-    - Returns **ListAnimeResponse[]** or **null* if there is no data
+    - Returns **ListAnimeResponse[]** or **null** if there is no data
   - ListAnimeById(userId: number, userState: "completed" | "plantowatch" | "banned", lang: "ru" | "en" = "ru") returns specific user's bookmarks which you can filter
     - Returns **UserAnimeResponse[]** or **null** if there is no data
   - SignIn(email: string, password: string)

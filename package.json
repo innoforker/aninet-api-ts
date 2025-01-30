@@ -1,0 +1,14 @@
+{
+  "name": "aninet-api-ts",
+  "version": "1.0",
+  "description": "AniNet Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node ./src/methods/funcs/test.ts"
+  },
+  "private": false,
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.7.4"
+  }
+}
